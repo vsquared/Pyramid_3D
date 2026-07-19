@@ -6,7 +6,7 @@ The 'normalized' composite image is used with textureMode(NORMAL) as shown below
 
 Each side of the pyramid has three vertices; the approximate coordinates of each triangle above is used with its respective vertex(). Slight modification of the coordinates may be necessary to center the images (usually widening the triangle base coordinates).  The square base uses normalized image values for each of the vertices, ie 0,0 (left,top) : 1,0 (right,top) : 1,1 (right, bottom) : 0,1 (left, bottom).  TextureMode(NORMAL) is described here: https://processing.org/reference/textureMode_.html.
 
-Images need to Be Placed in a 'Data' folder inside the sketch folder.
+Images need to Be Placed in a 'data' folder inside the sketch folder.
 
 
 Output:
